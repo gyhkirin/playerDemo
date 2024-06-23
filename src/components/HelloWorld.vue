@@ -99,7 +99,7 @@ export default {
         const error = this.player.error()
         console.log('error', error)
         if (error && error.code === 4) {
-        // 4 是 video.js 中的一个错误代码，表示无法加载媒体资源
+        // code4 是 video.js 中的一个错误代码，表示无法加载媒体资源
           this.errorMessage = '视频加载错误，请检查视频链接或网络连接'
         }
       })
